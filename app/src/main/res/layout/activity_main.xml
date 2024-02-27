@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#b3e0ff">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="363dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/terms_and_conditions_1_fir_is_a_legal_proedure_so_please_read_the_following_terms_and_conditions_carefully_before_proceeding_2_enter_the_statements_carefully_and_entry_of_any_wrongful_data_is_a_punishable_offense_3_the_person_who_wishes_to_file_fir_must_be_over_the_age_of_18_to_do_so_4_if_the_person_who_faced_the_offence_is_under_the_age_of_18_then_the_fir_must_be_filed_by_a_parent_guardian_5_please_choose_your_categories_correctly_while_filing_the_fir_6_if_you_fir_has_not_been_acknowledged_within_2_days_after_filing_then_please_contact_your_registered_police_station_7_the_filed_fir_will_be_verified_within_2_days_by_the_police_and_they_will_get_back_to_you_as_soon_as_possible"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.695" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/download" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/accept_and_continue"
+        android:background="#00e673"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b3e0ff"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="368dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="53dp"
+        android:background="#ffffff"
+        android:text="ROBBERY"
+        android:textAlignment="center"
+
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="373dp"
+        android:layout_height="417dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="91dp"
+        android:text="*In all robbery, there is either theft or extortion.*
+Section 390 of Indian Constitution explains about robbery.
+
+Theft becomes robbery when :
+
+a)When the offender voluntarily causes or attempts to cause:
+         i)Death, wrongful restraint or hurt or
+         ii)Fear of instant death, instant wrongful restraint or instant hurt.
+
+b)And the above act(s) is done
+         i)While committing the theft
+         ii)To commit the theft
+         iii)While carrying away the property obtained by theft or
+         iv)While attempting to carry away property obtained by theft.
+
+When Extortion is Robbery:
+        1.When a person commits extortion by putting another in the fear of instant death, wrongful restraint or hur
+
+        2. Then the offender induces the person under such fear to deliver the property at that very instant; then and there.
+
+        3. The offender is in the near presence of such a person put in fear at the time of extortion.
+
+Section 392(1986)– Punishment for robbery:
+           By this section, any person who commits robbery shall be punished with rigorous imprisonment which may be extended up to ten years and shall also be liable to pay a fine.
+Section 393– Attempt to commit robbery:
+           According to this section, anyone who attempts to commit robbery shall be punished with rigorous imprisonment for up to seven years and also be liable for a fine."
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="104dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="76dp"
+        android:background="#00e673"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="99dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="76dp"
+        android:background="#00e673"
+        android:text="@string/back1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

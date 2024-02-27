@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">IVR_PROJECT</string>
+    <string name="others">others</string>
+    <string name="trafficking">trafficking</string>
+    <string name="accidents">accidents</string>
+    <string name="cyber_crime">cyber crime</string>
+    <string name="sexual_harassment">sexual harassment</string>
+    <string name="robbery">robbery</string>
+    <string name="extortion">extortion</string>
+    <string name="back">back</string>
+    <string name="select_the_category_of_crime_that_you_want_to_file">Select the Category of crime,that you want to file.</string>
+    <string name="terms_and_conditions_1_fir_is_a_legal_proedure_so_please_read_the_following_terms_and_conditions_carefully_before_proceeding_2_enter_the_statements_carefully_and_entry_of_any_wrongful_data_is_a_punishable_offense_3_the_person_who_wishes_to_file_fir_must_be_over_the_age_of_18_to_do_so_4_if_the_person_who_faced_the_offence_is_under_the_age_of_18_then_the_fir_must_be_filed_by_a_parent_guardian_5_please_choose_your_categories_correctly_while_filing_the_fir_6_if_you_fir_has_not_been_acknowledged_within_2_days_after_filing_then_please_contact_your_registered_police_station_7_the_filed_fir_will_be_verified_within_2_days_by_the_police_and_they_will_get_back_to_you_as_soon_as_possible">*TERMS AND CONDITIONS 1. FIR is a legal proedure. So, please read the following terms and conditions carefully before proceeding. 2. Enter the statements carefully and entry of any wrongful data is a punishable offense. 3. The person who wishes to file FIR must be over the age of 18 to do so. 4. If the person who faced the offence is under the age of 18 then the FIR must be filed by a parent/Guardian. 5. Please choose your categories correctly while filing the FIR. 6. If you FIR has not been acknowledged within 2 days after filing, then please contact your registered Police Station. 7.The filed FIR will be verified within 2 days by the Police and they will get back to you as soon as possible.</string>
+    <string name="accept_and_continue">Accept and Continue</string>
+    <string name="robbery1">ROBBERY</string>
+    <string name="back1">Back</string>
+</resources>
